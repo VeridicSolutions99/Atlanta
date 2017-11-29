@@ -5,6 +5,7 @@ properties([
          projectUrlStr: 'https://github.com/VeridicSolutions99/Veridic_Atlanta.git/'],
          pipelineTriggers([githubPush()])
 ])
+//comment
 pipeline {
     agent any 
 
