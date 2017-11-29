@@ -4,18 +4,18 @@ pipeline {
     stages {
         stage('Build') { 
             steps { 
-                sh 'make' 
+                sh 'pwd' 
             }
         }
         stage('Test'){
             steps {
-                sh 'make check'
+                sh 'java -version'
                 
             }
         }
         stage('Deploy') {
             steps {
-                sh 'make publish'
+                sh 'ls'
             }
         }
     }
