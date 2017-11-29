@@ -3,7 +3,6 @@ properties([
          [$class: 'GithubProjectProperty',
          displayName: '',
          projectUrlStr: 'https://github.com/VeridicSolutions99/Veridic_Atlanta.git/'],
-         [$class: 'RebuildSettings', autoRebuild: false, rebuildDisabled: false],
          pipelineTriggers([githubPush()])
 ])
 pipeline {
