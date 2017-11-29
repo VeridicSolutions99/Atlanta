@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-
+properties([pipelineTriggers([githubPush()])])
 //comment testing
 pipeline {
     agent any 
