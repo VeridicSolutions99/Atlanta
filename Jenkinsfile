@@ -1,8 +1,4 @@
 #!/usr/bin/env groovy
-
-
-//comment testing edited lines
-//underline do
 pipeline {
     agent any 
 
