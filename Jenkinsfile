@@ -2,6 +2,7 @@
 properties([[$class: 'GithubProjectProperty', displayName: '', projectUrlStr: 'https://github.com/VeridicSolutions99/Veridic_Atlanta.git/'], pipelineTriggers([githubPush()])])
 
 //comment testing edited lines
+//underline
 pipeline {
     agent any 
 
