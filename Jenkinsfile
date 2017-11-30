@@ -6,7 +6,7 @@ properties([
     pipelineTriggers([githubPush()])
 ])
 
-//comment testing edited lines
+
 
 pipeline {
     agent any 
