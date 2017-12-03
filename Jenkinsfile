@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-//uupdateing the hooks
+
 properties([
     [$class: 'GithubProjectProperty',
     displayName: '',
