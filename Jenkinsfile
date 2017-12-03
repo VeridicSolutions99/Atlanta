@@ -1,10 +1,4 @@
 #!/usr/bin/env groovy
-properties([
-    [$class: 'GithubProjectProperty',
-    displayName: '',
-    projectUrlStr: 'https://github.com/VeridicSolutions99/Veridic_Atlanta.git/'],
-    pipelineTriggers([githubPush()])
-])
 ///uncomment
 pipeline {
     agent any 
