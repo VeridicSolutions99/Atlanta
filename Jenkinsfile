@@ -3,7 +3,7 @@ properties([
     [$class: 'GithubProjectProperty',
     displayName: '',
     projectUrlStr: 'https://github.com/VeridicSolutions99/Veridic_Atlanta.git/'],
-    pipelineTriggers([downstream('demo-pipeline'),
+    pipelineTriggers([upstream('demo-pipeline'),
     githubPush()])])
 ///uncomment
 pipeline {
