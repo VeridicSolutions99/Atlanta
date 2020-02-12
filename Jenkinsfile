@@ -39,5 +39,11 @@ pipeline {
                 sh 'pwd'
             }
         }
+        stage('Deploy') {
+            steps {
+                sh 'ls'
+                sh 'pwd'
+            }
+        }        
     }
 }
